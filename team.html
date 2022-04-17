@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Meet Our Team</title>
+</head>
+<body>
+   <style type="text/css">
+		/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  margin-top: 15px;
+  margin-left: 100px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+    .row{
+        max-width: 1180px;
+        margin: 0 auto 1px;
+    }
+    .logo{
+        height: 80px;
+        width: auto;
+        /* float: left; */
+        margin-top: 15px;
+    }
+    .main-nav{
+        float: right;
+        margin-top: 50px;
+    }
+    .main-nav li{
+        display: inline-block;
+        list-style: none;
+        margin-left: 40px;
+    }
+    .main-nav li a{
+        padding: 5px 0;
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 200px;
+        font-size: 90%;
+    }
+    .main-nav li a:hover
+    {
+        border-bottom: 5px solid #bf55ec;
+    }
+
+    .main-content-header
+    {
+
+        margin: 0px;
+        padding: 0px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+    }
+
+	</style>
+	<header>
+		<nav>
+                <div class="row">
+                    <a href="Main.html">
+                    <img src="images/Logo.jpeg" class="logo"></a>
+                    <ul class="main-nav" id="check-class">
+                        <li><a href="Main.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="Aboutus.html">About Us</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="Form.html">Book Your Room</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="attraction.html">Attractions</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        
+                    </ul>
+                        <!-- <a href="#" class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"></i></a>	 -->
+                </div>
+            </nav>
+
+	</header>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/har.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Harshitha D (1KT19CS027)</h2>
+        <p class="title">SKIT/CSE</p>
+        <p>taking initiative,active and a positive team member.</p>
+        <p>Email:harshithad.cse@skit.org.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/mon.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Monika M.M (1KT19CS043)</h2>
+        <p class="title">SKIT/CSE</p>
+        <p>Solid work ethics, self-motivated, driven and positive team member.</p>
+        <p>Email:monikamm.cse@skit.org.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="images/musk.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Muskan (1KT19CS046)</h2>
+        <p class="title">SKIT/CSE</p>
+        <p>Consistent,creative,problem solver and a positive team member.</p>
+        <p>Email:muskan46.cse@skit.org.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/nay.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Nayana D.N (1KT19CS046)</h2>
+        <p class="title"></p>
+        <p>Confident bold,good Communication skill and a positive team member.</p>
+        <p>Email:nayanadn.cse@skit.org.in</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
